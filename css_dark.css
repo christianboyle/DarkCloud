@@ -166,3 +166,12 @@ textarea, select, input{background: #000 !important}
 .featuredProfiles__list .sc-status-icon{filter: invert(100) !important;} /* Fix featured profiles text 2/2 */
 .sc-button-delete::before{filter: invert(100%) !important;} /* Fix delete playlist button */
 .sc-button-small.sc-button-lightfg:before{filter: unset !important;} /* Fix playlist preview song buttons */
+
+.compactTrackList__item .sc-border-light-bottom,.compactTrackList__moreLink.sc-link-light.sc-border-light {border: none !important;} /* Fix double border on playlist more button */
+.compactTrackList__moreLink.sc-link-light.sc-border-light {border-top: 1px solid #333 !important;} /* Fix playlists to use gray borders rather than orange */
+.sc-border-light{ border: 1px solid #333 !important;} /* Fix all occurrences of orange border with gray border */
+.sc-border-light-right{border-right: 1px solid #333 !important;} /* Fix stream list containers to have a gray border rather than orange */
+.sc-border-light-bottom{border-bottom: 1px solid #333 !important;} /* Fix stream sidebar module headers to have a gray bottom border rather than orange */
+.sc-button-small.sc-button-follow:before {filter: invert(1);} /* Fix track view sidebar follow button icon to be white instead of black */
+.header{border-bottom: 1px solid #333;}
+.playControls__inner,.playControls__bg{border-top: 1px solid #333 !important;}
