@@ -20,7 +20,6 @@ a.playbackSoundBadge__lightLink:hover, a.playbackSoundBadge__lightLink:focus{fil
 .sc-button-small.sc-button-icon:not(.sc-button-stretch-icon), .sc-button-small.sc-button-responsive:not(.sc-button-stretch-icon){background-color: #000 !important}
 .sound__soundActions{background-color: transparent !important}
 .soundActions{background-color: transparent !important}
-/*.soundTitle__title .sc-truncate{filter: invert(100%) !important;}*/
 .soundBadge .soundTitle__username{filter: invert(100%) !important;}
 a.sc-link-dark{filter: invert(100%) !important;}
 .soundContext__line .sc-ministats{color: #fff !important}
@@ -166,7 +165,7 @@ textarea, select, input{background: #000 !important}
 .featuredProfiles__list .sc-status-icon{filter: invert(100) !important;} /* Fix featured profiles text 2/2 */
 .sc-button-delete::before{filter: invert(100%) !important;} /* Fix delete playlist button */
 .sc-button-small.sc-button-lightfg:before{filter: unset !important;} /* Fix playlist preview song buttons */
-/* Post-fork updates */
+/* Post-fork updates (12-11-2020) */
 .compactTrackList__item .sc-border-light-bottom,.compactTrackList__moreLink.sc-link-light.sc-border-light {border: none !important;} /* Fix double border on playlist more button */
 .compactTrackList__moreLink.sc-link-light.sc-border-light {border-top: 1px solid #333 !important;} /* Fix playlists to use gray borders rather than orange */
 .sc-border-light{ border: 1px solid #333 !important;} /* Fix all occurrences of orange border with gray border */
