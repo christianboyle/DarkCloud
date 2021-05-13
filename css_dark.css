@@ -612,15 +612,15 @@ input {
 a.trackItem__trackTitle.sc-link-dark.sc-font-light {
     color: #999;
 }
-@media (max-width: 1079px) {
-    .sc-classic .l-container {
-        width: auto;
-    }
-}
 .show .header__navWrapper, .show .header__right, .show .header__search,
 .sc-classic .playControls__soundBadge {
     margin-right: 20px;
 }
 .l-container.l-content {
     padding-top: 46px
+}
+@media (max-width: 1079px) {
+    .sc-classic .l-container {
+        width: auto !important;
+    }
 }
