@@ -76,7 +76,7 @@ a.playbackSoundBadge__lightLink:focus {
 .soundBadge .soundTitle__username {
   filter: invert(100%) !important;
 }
-a.sc-link-dark:not(.sc-font-light) {
+a.sc-link-dark:not(.sc-font-light, .reportCopyright) {
   filter: invert(100%) !important;
 }
 .soundContext__line .sc-ministats {
@@ -610,17 +610,19 @@ input {
   display: none;
 }
 a.trackItem__trackTitle.sc-link-dark.sc-font-light {
-    color: #999;
+  color: #999;
 }
-.show .header__navWrapper, .show .header__right, .show .header__search,
+.show .header__navWrapper,
+.show .header__right,
+.show .header__search,
 .sc-classic .playControls__soundBadge {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .l-container.l-content {
-    padding-top: 46px
+  padding-top: 46px;
 }
 @media (max-width: 1079px) {
-    .sc-classic .l-container {
-        width: auto !important;
-    }
+  .sc-classic .l-container {
+    width: auto !important;
+  }
 }
