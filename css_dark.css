@@ -162,7 +162,8 @@ input {
   background: #1e1f21 !important;
   border: 1px solid #353535 !important;
 }
-.sc-button-medium.sc-button-share:before {
+.sc-button-medium.sc-button-share:before,
+.sc-button-medium.sc-button-copylink:before {
   filter: invert(100%) !important;
 }
 .sc-button-selected.sc-button-medium.sc-button-more:before,
