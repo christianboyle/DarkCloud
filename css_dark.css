@@ -213,6 +213,9 @@ input {
 .sc-button-medium.sc-button-startstation:before {
   filter: invert(100%) !important;
 }
+.sc-button-medium.sc-button-report:before {
+  filter: invert(100%) !important;
+}
 .moreActions {
   border: 1px solid #232323 !important;
 }
