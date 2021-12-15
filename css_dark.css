@@ -9,52 +9,6 @@ body {
 .playControls__bg {
   background-color: #111111 !important;
 }
-.playControl {
-  filter: invert(100%) !important;
-}
-.skipControl__previous {
-  filter: invert(100%) !important;
-}
-.skipControl__next {
-  filter: invert(100%) !important;
-}
-.shuffleControl {
-  filter: invert(100%) !important;
-}
-.repeatControl.m-none {
-  filter: invert(100%) !important;
-}
-.volume[data-level='6'] .volume__button,
-.volume[data-level='7'] .volume__button,
-.volume[data-level='8'] .volume__button,
-.volume[data-level='9'] .volume__button,
-.volume[data-level='10'] .volume__button {
-  filter: invert(100%) !important;
-}
-.volume[data-level='1'] .volume__button,
-.volume[data-level='2'] .volume__button,
-.volume[data-level='3'] .volume__button,
-.volume[data-level='4'] .volume__button,
-.volume[data-level='5'] .volume__button {
-  filter: invert(100%) !important;
-}
-.volume.muted .volume__button {
-  filter: invert(100%) !important;
-}
-.volume__button {
-  filter: invert(100%) !important;
-}
-.playbackTimeline__duration {
-  filter: invert(100%) !important;
-}
-.playbackSoundBadge__titleLink,
-.playbackSoundBadge__titleLink:visited {
-  filter: invert(100%) !important;
-}
-a.playbackSoundBadge__lightLink:hover,
-a.playbackSoundBadge__lightLink:focus {
-  filter: invert(100%) !important;
-}
 .g-tabs-link,
 .g-tabs-link:visited {
   color: #8b9191 !important;
@@ -72,13 +26,6 @@ a.playbackSoundBadge__lightLink:focus {
 .soundActions {
   background-color: transparent !important;
 }
-/*.soundTitle__title .sc-truncate{filter: invert(100%) !important;}*/
-.soundBadge .soundTitle__username {
-  filter: invert(100%) !important;
-}
-a.sc-link-dark:not(.sc-font-light, .reportCopyright) {
-  filter: invert(100%) !important;
-}
 .soundContext__line .sc-ministats {
   color: #fff !important;
 }
@@ -92,24 +39,48 @@ a.sc-link-dark:not(.sc-font-light, .reportCopyright) {
 .playControls__bg {
   border-top: unset !important;
 }
-.playbackSoundBadge__showQueue {
-  filter: invert(100%) !important;
-}
 .sc-button {
   color: #fff !important;
   border: 0px solid #fff !important;
 }
-.sc-button-small.sc-button-share:before {
-  filter: invert(100%) !important;
-}
-.sc-button-small.sc-button-more:before {
-  filter: invert(100%) !important;
-}
-.sc-button-small.sc-button-copylink :before {
-  filter: invert(100%) !important;
-}
+.playControl,
+.skipControl__previous,
+.skipControl__next,
+.shuffleControl,
+.repeatControl.m-none,
+.volume[data-level='6'] .volume__button,
+.volume[data-level='7'] .volume__button,
+.volume[data-level='8'] .volume__button,
+.volume[data-level='9'] .volume__button,
+.volume[data-level='10'] .volume__button,
+.volume[data-level='1'] .volume__button,
+.volume[data-level='2'] .volume__button,
+.volume[data-level='3'] .volume__button,
+.volume[data-level='4'] .volume__button,
+.volume[data-level='5'] .volume__button,
+.volume.muted .volume__button,
+.volume__button,
+.playbackTimeline__duration,
+.playbackSoundBadge__titleLink,
+.playbackSoundBadge__titleLink:visited,
+a.playbackSoundBadge__lightLink:hover,
+a.playbackSoundBadge__lightLink:focus,
+.soundBadge .soundTitle__username,
+a.sc-link-dark:not(.sc-font-light, .reportCopyright),
+.playbackSoundBadge__showQueue,
+.sc-button-small.sc-button-share:before,
+.sc-button-small.sc-button-more:before,
+.sc-button-small.sc-button-copylink:before,
 .sc-buylink,
-.sc-buylink:visited {
+.sc-buylink:visited,
+.sc-button-medium.sc-button-share:before,
+.sc-button-medium.sc-button-copylink:before,
+.sc-button-medium.sc-button-more:before,
+.sc-button-queue:before,
+.sc-button-medium.sc-button-addtoset:before,
+.sc-button-medium.sc-button-startstation:before,
+.sc-button-medium.sc-button-report:before,
+.sc-button-medium.sc-button-message:before {
   filter: invert(100%) !important;
 }
 .dialog {
@@ -165,16 +136,9 @@ input {
   background: #1e1f21 !important;
   border: 1px solid #353535 !important;
 }
-.sc-button-medium.sc-button-share:before,
-.sc-button-medium.sc-button-copylink:before {
-  filter: invert(100%) !important;
-}
 .sc-button-selected.sc-button-medium.sc-button-more:before,
 .sc-button-active.sc-button-medium.sc-button-more:before {
   filter: invert(0%) !important;
-}
-.sc-button-medium.sc-button-more:before {
-  filter: invert(100%) !important;
 }
 .modal__modal {
   background: #111214 !important;
@@ -206,18 +170,6 @@ input {
 .moreActions__button:not(:last-child),
 .moreActions__link {
   border-bottom: 1px solid #232323 !important;
-}
-.sc-button-queue:before {
-  filter: invert(100%) !important;
-}
-.sc-button-medium.sc-button-addtoset:before {
-  filter: invert(100%) !important;
-}
-.sc-button-medium.sc-button-startstation:before {
-  filter: invert(100%) !important;
-}
-.sc-button-medium.sc-button-report:before {
-  filter: invert(100%) !important;
 }
 .moreActions {
   border: 1px solid #232323 !important;
@@ -258,9 +210,6 @@ input {
 }
 .l-fixed-top-one-column > .l-top {
   background: #161719 !important;
-} /* Fixes profile's likes page header */
-.sc-button-medium.sc-button-message:before {
-  filter: invert(100%) !important;
 }
 .g-tabs-link:hover,
 .g-tabs-link:focus {
