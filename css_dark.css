@@ -105,6 +105,9 @@ a.sc-link-dark:not(.sc-font-light, .reportCopyright) {
 .sc-button-small.sc-button-more:before {
   filter: invert(100%) !important;
 }
+.sc-button-small.sc-button-copylink :before {
+  filter: invert(100%) !important;
+}
 .sc-buylink,
 .sc-buylink:visited {
   filter: invert(100%) !important;
