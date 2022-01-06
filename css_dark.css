@@ -582,3 +582,7 @@ a.trackItem__trackTitle.sc-link-dark.sc-font-light {
     width: auto !important;
   }
 }
+
+.sc-classic .streamHTUpsell {
+  display: none;
+}
