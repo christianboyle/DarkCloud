@@ -347,6 +347,9 @@ input {
 .sc-button-medium.sc-button-addtoset:before {
   filter: invert(100%) !important;
 }
+.sc-button-medium.sc-button-download:before {
+  filter: invert(100%) !important;
+}
 .conversation__actions {
   background: #0b0c0c !important;
   box-shadow: 0 1px 0 #f85402 !important;
