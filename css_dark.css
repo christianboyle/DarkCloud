@@ -519,3 +519,7 @@ a.trackItem__trackTitle.sc-link-dark.sc-font-light {
 .sc-classic .streamHTUpsell {
 	display: none !important;
 }
+.header__goUpsell_side_by_side_experience,
+.header__proUpsell_side_by_side_experience {
+	display: none;
+}
