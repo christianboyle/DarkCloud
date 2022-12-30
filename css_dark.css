@@ -523,3 +523,7 @@ a.trackItem__trackTitle.sc-link-dark.sc-font-light {
 .header__proUpsell_side_by_side_experience {
 	display: none;
 }
+
+.sc-classic .compactTrackListItem__number, .sc-classic .compactTrackListItem__trackTitle {
+	color: #999 !important;
+}
